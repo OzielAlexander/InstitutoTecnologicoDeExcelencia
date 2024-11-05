@@ -87,7 +87,7 @@ document.getElementById('cerrarSesionBtn').addEventListener('click', async () =>
         localStorage.removeItem('tipoUsuario');
 
         // Redirigir a la página de inicio de sesión
-        window.location.href = '../USUARIO.html';
+        window.location.href = '../index.html';
     } catch (error) {
         console.error("Error al cerrar la sesión: ", error);
         alert("Hubo un error al cerrar la sesión. Inténtalo de nuevo.");
